@@ -6,7 +6,7 @@ enabled, but does not work when using `wgpu::Backends::GL`.
 
 The example can be run as follows:
 
-```
+```bash
 # Run with wgpu::Backends::BROWSER_WEBGPU
 RUSTFLAGS=--cfg=web_sys_unstable_apis cargo run-wasm example
 

@@ -14,6 +14,8 @@ RUSTFLAGS=--cfg=web_sys_unstable_apis cargo run-wasm example
 cargo run-wasm example --features webgl
 ```
 
+A ticket for this issue can be found at [gfx-rs/wgpu/issues/2573](https://github.com/gfx-rs/wgpu/issues/2573).
+
 ## Expected behaviour
 
 The example should render with a green background when using either backend.
